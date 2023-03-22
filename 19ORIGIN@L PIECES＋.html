@@ -1,0 +1,1519 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<script type="text/javascript">
+		var bgmStop = false;
+		var inProduction = true;
+		var isAndApp =  false;
+		var isChromeApp =  false;
+		var isShellApp = false;
+		var serverName = 'http://m.i-sidem.idolmaster.jp/';
+		var IMG_VER = '2022092904/';
+		var phpConfig = {
+			hostname: 'http://m.i-sidem.idolmaster.jp'
+			, isMobageGadgetUrl: true		}
+					phpConfig.mobageGadgetUrl = '//g12017647.sp.pf.mbga.jp/?url=';
+		
+					//本番でコンソールログが出ないように
+			console.assert=console.error=console.log=console.time=console.timeEnd=console.warn=console.debug=function(){};
+			</script>
+	<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="format-detection" content="telephone=no">
+	<meta name="mobage: footer-color" content="none" /> 
+<title>ｱｲﾄﾞﾙﾏｽﾀｰ SideM</title>
+<link rel="icon" href="https://sp.pf-img-a.mbga.jp/12017647?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fimg_sp%2F2022092904%2Fcommon%2Fbookmark_icon%2Ffavicon.png" type="image/png" />
+<link rel="apple-touch-icon-precomposed" href="https://sp.pf-img-a.mbga.jp/12017647?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fimg_sp%2F2022092904%2Fcommon%2Fbookmark_icon%2Fapple-touch-icon-57x57-precomposed.png" />
+<link rel="apple-touch-icon-precomposed" sizes="57x57" href="https://sp.pf-img-a.mbga.jp/12017647?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fimg_sp%2F2022092904%2Fcommon%2Fbookmark_icon%2Fapple-touch-icon-57x57-precomposed.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://sp.pf-img-a.mbga.jp/12017647?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fimg_sp%2F2022092904%2Fcommon%2Fbookmark_icon%2Fapple-touch-icon-72x72-precomposed.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://sp.pf-img-a.mbga.jp/12017647?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fimg_sp%2F2022092904%2Fcommon%2Fbookmark_icon%2Fapple-touch-icon-114x114-precomposed.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://sp.pf-img-a.mbga.jp/12017647?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fimg_sp%2F2022092904%2Fcommon%2Fbookmark_icon%2Fapple-touch-icon-144x144-precomposed.png" />
+<script>
+	var isShellApp  = false;
+	var isChromeApp = false;
+	var isAndApp = false;
+	var isFullWidth = false;
+</script>
+	
+	
+	
+	<link rel="stylesheet" type="text/css" media="all" href="css_6f5d8b6d64a0e6534af1c41b3e5dfc40.css" /><link rel="stylesheet" type="text/css" href="https://sp.pf-img-a.mbga.jp/css/base.css?20171116" /></head>
+<body  class="bgbasestar"><script type="text/javascript" src="js_894a47b5774c7382c3834c5e45176250.js"></script>
+				
+				<div id="container" style="">
+		<div id="layout" class="">
+						<div id="header"><div id="pagehead" name="pagehead" class="">
+	<ul class="global-menu clearfix ">
+		<li class="mydesk"><a href="?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fuser%2Fhome%3Fah%3Dfb12af52ca">ﾏｲﾃﾞｽｸ</a></li>
+					<li class="quest"><a href="?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fquest%2F%3Fah%3Dfb12af52ca">営業</a></li>
+							<li class="event-mixed"><a href="?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fmixed%2F%3Fah%3Dfb12af52ca">ﾚｯｽﾝ</a></li>
+							<li class="gacha"><a href="?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fgacha%2F%3Fah%3Dfb12af52ca">ｽｶｳﾄｶﾞｼｬ</a></li>
+		
+					
+			<li class="event"><a href="#">営業</a></li>
+				<li id="li-menu" data-sound="c" class="menu"><a>ﾒﾆｭｰ</a></li>
+	</ul>
+	<div class="option">
+					<div class="mt10">
+	
+	<div class="posr header_banner_area_slider">
+		
+	<ul class="campaign-banner_area " style="" id="header_banner_area_line_1">
+					
+							
+	<li class="banner_list">
+					<a href="?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Futility%2Fctr_banner%2F100%2F1%2FL2Jhbm5lci9jYW1wYWlnbi9iYW5uZXJfY2FtcGFpZ25fZmluYWxfa2x6Z2l2ZW16bg%3D%3D%2FL2NhbXBhaWduL2ZpbmFsLw%3D%3D%2FL3VzZXIvaG9tZS8%3D%2F0%2F6400203%3Fah%3Dfb12af52ca" class="banner_list">
+		
+									
+		
+		<img class="e-img " id="" src="https://sp.pf-img-a.mbga.jp/12017647?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fimg_sp%2F2022092904%2F%2Fbanner%2Fcampaign%2Fbanner_campaign_final_klzgivemzn.png" width="300" height="" alt="" style="" border="0" />
+								<div><span class="txt">各年の<span class="fc-strong">315 思い出ﾑｰﾋﾞｰ</span>を公開中!</span></div>
+		
+					</a>
+			</li>
+						</ul>
+		<script>
+			$('#header_banner_area_line_1').slider({
+				isLoop: true,
+				createNavPuces:false,
+				navigationType:'line1',
+				slideElement:'li',
+				wrapClass: 'ui-slider-wrap mmb5',
+									isTouch:false,
+					isSwipe:true,
+					isAnimate: true
+							});
+		</script>
+	</div>
+	<div class="posr header_banner_area_slider">
+		
+	<ul class="campaign-banner_area " style="" id="header_banner_area_line_2">
+					
+							
+	<li class="banner_list">
+					<a href="?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Futility%2Fctr_banner%2F100%2F1%2FL2Jhbm5lci9nYWNoYS9iYW5uZXJfZmluYWxfY2FtcGFpZ25fa2x6Z2l2ZW16bl9nYWNoYQ%3D%3D%2FL2dhY2hhL3NwZWNpYWxfc2NvdXQvZmluYWwv%2FL3VzZXIvaG9tZS8%3D%2F0%2F990000%3Fah%3Dfb12af52ca" class="banner_list">
+		
+									
+		
+		<img class="e-img " id="" src="https://sp.pf-img-a.mbga.jp/12017647?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fimg_sp%2F2022092904%2F%2Fbanner%2Fgacha%2Fbanner_final_campaign_klzgivemzn_gacha.png" width="300" height="" alt="" style="" border="0" />
+								<div><span class="txt">全ﾕﾆｯﾄの<span class="fc-strong">ｽｶｳﾄ</span>を完了しました!</span></div>
+		
+					</a>
+			</li>
+						</ul>
+		<script>
+			$('#header_banner_area_line_2').slider({
+				isLoop: true,
+				createNavPuces:false,
+				navigationType:'line2',
+				slideElement:'li',
+				wrapClass: 'ui-slider-wrap mmb5',
+									isTouch:false,
+					isSwipe:true,
+					isAnimate: true
+							});
+		</script>
+	</div>
+</div>
+<div class="ui-bg-main ">
+<div class="menubox ">
+	<dl class="button">
+		<dt><span class="label stage">お仕事</span></dt>
+		<dl>
+			<dd><a class="quest" href="?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fquest%2Findex%2F%3Fah%3Dfb12af52ca">営業</a></dd>
+							<dd><a class="live" href="?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Flive%2F%3Fah%3Dfb12af52ca">ﾗｲﾌﾞ</a></dd>
+						<dd><a class="battle" href="?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fbattle%2Frival_list%3Fah%3Dfb12af52ca">ｵｰﾃﾞｨｼｮﾝﾊﾞﾄﾙ</a></dd>
+										<dd><a class="upc2" href="?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Funit_produce_competition%2F%3Fah%3Dfb12af52ca">UPC</a></dd>
+										<dd><a class="upcc" href="?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fupc_championship%2F%3Fah%3Dfb12af52ca">UPCﾁｬﾝﾋﾟｵﾝｼｯﾌﾟ</a></dd>
+					</dl>
+	</dl>
+	<img class="e-img line" id="" src="https://sp.pf-img-a.mbga.jp/12017647?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fimg_sp%2F2022092904%2Fcommon%2Fline%2Fline06.png" width="320" height="11" alt="" style="" border="0" />
+	<dl class="button">
+		<dt><span class="label formation">育成</span></dt>
+		<dl>
+						<dd><a class="mixed" href="?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fmixed%2F%3Fah%3Dfb12af52ca">ﾚｯｽﾝ</a></dd>
+			<dd><a class="evolution" href="?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fmixed%2Fevolution%2F%3Fah%3Dfb12af52ca">ﾁｪﾝｼﾞ!</a></dd>
+							<dd><a class="gacha" href="?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fgacha%2F%3Fah%3Dfb12af52ca">ｽｶｳﾄｶﾞｼｬ</a></dd>
+					</dl>
+	</dl>
+	<img class="e-img line" id="" src="https://sp.pf-img-a.mbga.jp/12017647?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fimg_sp%2F2022092904%2Fcommon%2Fline%2Fline06.png" width="320" height="11" alt="" style="" border="0" />
+	<dl class="button">
+		<dt><span class="label unit">ﾕﾆｯﾄ</span></dt>
+		<dl>
+			<dd><a class="deck" href="?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fdeck_live%2F%3Fah%3Dfb12af52ca">ﾕﾆｯﾄ編成</a></dd>
+			<dd><a class="ichioshi" href="?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fcard%2Frecommended%2F%3Fah%3Dfb12af52ca">ｲﾁｵｼﾕﾆｯﾄ</a></dd>
+		</dl>
+	</dl>
+	<img class="e-img line" id="" src="https://sp.pf-img-a.mbga.jp/12017647?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fimg_sp%2F2022092904%2Fcommon%2Fline%2Fline06.png" width="320" height="11" alt="" style="" border="0" />
+	<dl class="button">
+		<dt><span class="label card">ｱｲﾄﾞﾙ</span></dt>
+		<dl>
+			<dd><a class="album" href="?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Falbum%2F%3Fah%3Dfb12af52ca">ｱｲﾄﾞﾙﾌｧｲﾙ</a></dd>
+			<dd><a class="card" href="?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fcard%2Findex%2F%3Fah%3Dfb12af52ca">所属ｱｲﾄﾞﾙ</a></dd>
+			<dd><a class="dorm" href="?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fdormitory%2Findex%2F%3Fah%3Dfb12af52ca">男子寮</a></dd>
+			<dd><a class="sidemini" href="?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fsidemini%2F%3Fah%3Dfb12af52ca">事務所</a></dd>
+			<dd><a class="sound_studio" href="?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fsound%2F%3Fah%3Dfb12af52ca">ｻｳﾝﾄﾞｽﾀｼﾞｵ</a></dd>
+			<dd><a class="movie_theater" href="?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fcontent%2Fmovie_list%3Fah%3Dfb12af52ca">&nbsp;</a></dd>
+		</dl>
+        </dl>
+	<img class="e-img line" id="" src="https://sp.pf-img-a.mbga.jp/12017647?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fimg_sp%2F2022092904%2Fcommon%2Fline%2Fline06.png" width="320" height="11" alt="" style="" border="0" />
+        <dl class="button">
+		<dt><span class="label story">ｽﾄｰﾘｰ</span></dt>
+		<dl>
+			<dd><a class="memo" href="?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Falbum%2Fbonus%2F%3Fah%3Dfb12af52ca">思い出ﾒﾓ</a></dd>
+			<dd><a class="comic" href="?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fcomic%2Fcomic_index_navi%3Fah%3Dfb12af52ca">雑誌</a></dd>
+			<dd><a class="event_album" href="?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fdrama_replay%2Findex%2F%3Fah%3Dfb12af52ca">ｲﾍﾞﾝﾄｱｲﾄﾞﾙﾌｧｲﾙ</a></dd>
+			<dd><a class="sketch" href="?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fdaily_drama_archive%2F%3Fah%3Dfb12af52ca">日常での1コマ</a></dd>
+			<dd><a class="side_memories" href="?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fside_memories%2F%3Fah%3Dfb12af52ca">Side Memories</a></dd>
+			<dd><a class="theater315" href="?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Ftheater315%2F%3Fah%3Dfb12af52ca">theater315</a></dd>
+		</dl>
+	</dl>
+	<img class="e-img line" id="" src="https://sp.pf-img-a.mbga.jp/12017647?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fimg_sp%2F2022092904%2Fcommon%2Fline%2Fline06.png" width="320" height="11" alt="" style="" border="0" />
+	<dl class="button">
+		<dt><span class="label item">ｱｲﾃﾑ</span></dt>
+		<dl>
+			<dd><a class="present" href="?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fmessage%2Fpresent%2F%3Fah%3Dfb12af52ca">ﾌﾟﾚｾﾞﾝﾄ</a></dd>
+							<dd><a class="shop" href="?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fshop_item%2F%3Fah%3Dfb12af52ca">ｼｮｯﾌﾟ</a></dd>
+						<dd><a class="item" href="?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fitem%2F%3Fah%3Dfb12af52ca">ｱｲﾃﾑ</a></dd>
+			<dd><a class="exchange" href="?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Femblem_exchange%2Fitem_list%3Fah%3Dfb12af52ca">交換所</a></dd>
+		</dl>
+	</dl>
+	<img class="e-img line" id="" src="https://sp.pf-img-a.mbga.jp/12017647?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fimg_sp%2F2022092904%2Fcommon%2Fline%2Fline06.png" width="320" height="11" alt="" style="" border="0" />
+	<dl class="button">
+		<dt><span class="label friend">仲間</span></dt>
+		<dl>
+			<dd><a class="friend" href="?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Ffriend%2F%3Fah%3Dfb12af52ca">同僚</a></dd>
+			<dd><a class="gift" href="?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fgift%2F%3Fah%3Dfb12af52ca">ｷﾞﾌﾄ</a></dd>
+			<dd><a class="guild" href="?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fguild%2F%3Fah%3Dfb12af52ca">ﾁｰﾑ</a></dd>
+		</dl>
+	</dl>
+	<img class="e-img line" id="" src="https://sp.pf-img-a.mbga.jp/12017647?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fimg_sp%2F2022092904%2Fcommon%2Fline%2Fline06.png" width="320" height="11" alt="" style="" border="0" />
+	<dl class="button">
+		<dt><span class="label mydata">ﾏｲﾃﾞｰﾀ</span></dt>
+		<dl>
+			<dd><a class="mydata" href="?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fuser%2Fmydata%3Fah%3Dfb12af52ca">ﾏｲﾃﾞｰﾀ</a></dd>
+			<dd><a class="change_name" href="?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fuser%2Fchange_group_name%2F%3Fah%3Dfb12af52ca">ｸﾞﾙｰﾌﾟ名変更</a></dd>
+			<dd><a class="pro_title" href="?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fuser%2Fsymbol%2F%3Fah%3Dfb12af52ca">ﾌﾟﾛﾃﾞｭｰｻｰ称号</a></dd>
+			<dd><a class="pmeishi" href="?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fbusiness_card%2Findex%2F%3Fah%3Dfb12af52ca">P名刺</a></dd>
+			<dd><a class="wish" href="?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fwish%2F%3Fah%3Dfb12af52ca">ﾎｼｲﾓﾉ</a></dd>
+			<dd><a class="distribution_image" href="?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fdistribution_image%2F%3Fah%3Dfb12af52ca">配布画像</a></dd>
+			<dd><a class="live-on-stage" href="?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Flive_on_stage%2Falbum%2F%3Fah%3Dfb12af52ca">LIVE ON ST@GE!</a></dd>
+		</dl>
+	</dl>
+	<dl class="button">
+		<dt></dt>
+		<dl>
+			<dd><a class="top" href="http://g12017647.sp.pf.mbga.jp/">TOP</a></dd>
+			<dd><a class="help" href="?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fhelp%2F%3Fah%3Dfb12af52ca">ﾍﾙﾌﾟ</a></dd>
+			<dd><a class="setting" href="?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fsetting%2F%3Fah%3Dfb12af52ca">設定</a></dd>
+		</dl>
+	</dl>
+	
+	<div class="ta-center mt5 mb5">
+									<a target="_blank" href="https://sp.mbga.jp/_pf_redirect?ref=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fuser%2Fhome%3Fah%3D85dc03a7ec%26opensocial_app_id%3D12017647%26opensocial_viewer_id%3D146852062%26opensocial_owner_id%3D146852062&app_id=12017647&url=https%3A%2F%2Fsidem-gs.idolmaster-official.jp%2Fgame_commentary_policy%2F&sign=b0914257cd8286a1698babddd2583d03" class="diblock"><img class="e-img " id="" src="https://sp.pf-img-a.mbga.jp/12017647?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fimg_sp%2F2022092904%2Fcommon%2Fbutton%2Fpolicy_btn.png" width="140" height="" alt="" style="" border="0" />
+</a>
+		
+			</div>
+	<div class="ta-center"><a data-sound="c" class="menu-close">ﾒﾆｭｰを閉じる</a></div>
+</div>
+</div>			</div>
+</div>
+</div>
+	
+<div id="main">
+	<div class="mydesk_bg">
+	<div class="user-home-header mydesk_bg">
+	<a class="icon-message" href="#" data-sound="none">
+					<span class="round-count">4</span>
+			</a>
+	<span class="menu-arrow">close</span>
+	<a class="unit-name diblock" href="#" data-sound="none">
+		ｻﾀﾝ崇拝	</a>
+	
+	<a class="icon-sidemini" data-ui="popup" data-target="popup_sidemini" data-prepend="false" data-sound="d">
+					<span class="round-count">!</span>
+			</a>
+</div>
+<div class="popupbox_wrap">
+	<div id="popup_detail_info"></div>
+	<div id="popup_message"></div>
+</div>
+<div 
+        class="sidemini-popup dnone slide" 
+        id="popup_sidemini" 
+>
+	<div class="sidemini-popup-header">
+		<span>事務所 & 展示室</span>
+	</div>
+	<div class="sidemini-popup-body">
+		
+									<img class="e-img " id="" src="https://sp.pf-img-a.mbga.jp/12017647?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fimg_sp%2F2022092904%2F%2Fui%2Fmypage%2Fsidemini%2Fsidemini_03.jpg" width="300" height="265" alt="" style="" border="0" />
+			
+			<div class="sidemini-popup-controls">
+				<div class="sidemini-bars">
+					
+<div class="progress-bar-bg " style="margin-bottom:8px;">
+		<div class="progress-bar" style="width:100%"></div>
+			<img class="e-img text" id="" src="https://sp.pf-img-a.mbga.jp/12017647?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fimg_sp%2F2022092904%2Fui%2Fsidemini%2Fbar_text2.png" width="79" height="22" alt="" style="" border="0" />
+	</div>
+					<div class="omiya-name " style="">
+	<div class="title fs-10">置いたおみや</div>
+	<div class="name fc-alert ta-center fs-10">ﾗｰﾒﾝﾁｯﾌﾟｽ</div>
+</div>
+				</div>
+			</div>
+				<div class="sidemini-popup-controls">
+			<a class="link-sidemini" href="?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fsidemini%2F%3Fah%3Dfb12af52ca" data-sound="a">
+									<span class="round-count" style="z-index:1;top:-5px;left:-5px;">!</span>
+								<img class="e-img " id="" src="https://sp.pf-img-a.mbga.jp/12017647?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fimg_sp%2F2022092904%2F%2Fui%2Fmypage%2Fsidemini%2Fbtn_jimusho.png" width="113" height="43" alt="" style="" border="0" />
+			</a>
+			<a class="link-showroom" href="?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fsidemini%2Fshowroom%3Fah%3Dfb12af52ca" data-sound="a">
+				<img class="e-img " id="" src="https://sp.pf-img-a.mbga.jp/12017647?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fimg_sp%2F2022092904%2F%2Fui%2Fmypage%2Fsidemini%2Fbtn_tenjishitsu.png" width="113" height="43" alt="" style="" border="0" />
+			</a>
+		</div>
+		<div class="sidemini-popup-goodjob">
+			<span>10</span>
+		</div>
+	</div>
+	<div class="sidemini-popup-footer">
+		<a href="#" data-sound="d" data-dismiss="popup">閉じる</a>
+	</div>
+</div>
+	
+		
+<div class="eyescatch-container posr one-serif ">
+	<div class="posa">
+				<img class="e-img " id="" src="https://sp.pf-img-a.mbga.jp/12017647?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fimg_sp%2F2022092904%2F%2Fui%2Fidol_file%2Fbackground%2F187_dzgwzqtwzbjp_event_sr01b.jpg" width="320" height="320" alt="" style="" border="0" />
+	</div>
+	<div id="eyescatch-fade-slider" class="posr">
+		<div class="eyescatch-slide">
+			<div class="user-eyescatch-wrap">
+													<div class="balloon-wrap" style="margin-top:3px;" data-row="2">
+												
+<div class="balloon balloon-over balloon-green " style="">
+	<span class="name">【ORIGIN@L PIECES】大河 ﾀｹﾙ+</span>	<p style="">この事務所…いろんなﾔﾂがいて､みんないいﾔﾂで…居心地､いいよな｡</p>
+	
+</div>
+					</div>
+				
+				
+	<canvas id="canvas-63b5f4353d88d" width="320" height="200" class="mauto dblock overhidden"></canvas>
+<style>
+#canvas-63b5f4353d88d {
+	width:320px;	height:200px;}
+</style>
+<script>
+new function () {
+var canvas = document.getElementById("canvas-63b5f4353d88d");
+if (navigator.userAgent.match(/iPhone OS (\w+){1,3}/g)) {
+	var ver = (RegExp.$1.replace(/_/g, '')+'00').slice(0,3);
+	if (ver >= 700) {
+		var ratio = $("body").innerHeight() / 200;
+		if (ratio < 1) {
+			var w = 320 * ratio;
+			var h = 200 * ratio;
+			canvas.style.paddingLeft = (320 - w) / 2 + "px";
+			canvas.style.width = w +"px";
+			canvas.style.height = h + "px";
+		}
+	}
+}
+}
+</script>
+<script>
+	var devicePixelRatio = isAndApp ? 3 : (("devicePixelRatio" in window) ? window.devicePixelRatio : 1);
+	var pex, iv, av;
+	var pexOpt = {
+		'width':320 * devicePixelRatio,
+		'height':200 * devicePixelRatio,
+		'enableButton':false,
+		'enableTouch':false,
+	}
+			pexOpt['partialDraw'] = false;
+		pexOpt['shapeDetail'] = {'all':{'method':'func'}};
+		if(cv = cVer()) {
+			pexOpt['partialDraw'] = false;
+		}
+	
+new function () {
+	pex = new Pex("19ORIGIN@L PIECES＋.swf"), pexOpt);
+	window.onunload = function() { pex.getAPI().destroy(); };
+}
+function iVer() {
+	if (/iP(hone|od|ad)/.test(navigator.platform)) {  
+		var v = (navigator.appVersion).match(/OS (\d+)_(\d+)_?(\d+)?/);  
+		return [parseInt(v[1], 10), parseInt(v[2], 10), parseInt(v[3] || 0, 10)];  
+	}
+}
+function aVer() {
+	var ua = navigator.userAgent;
+	if( ua.indexOf("Android") > 0 ){
+		var version = parseFloat(ua.slice(ua.indexOf("Android")+8));
+		return version;
+	}
+}
+function cVer() {
+	var ua = window.navigator.userAgent.toLowerCase();
+	if( ua.indexOf("chrome") > 0 ) {
+		ar = /chrome\/([\d\.]+)/.exec(ua);
+		var v = ar[1];
+		piv = parseInt(v);
+		if(piv >= 57){
+			return piv;
+		}
+	}
+}
+</script>
+<script>
+pex.getAPI().addEventListener("movieclipcreate", function (api, name)
+{
+	if (name.indexOf("/main/card") == -1) return;
+	api.setMovieClipProperty("/main/card1/image","yc",10);});
+</script>
+											</div>
+		</div>
+		<div class="eyescatch-slide">
+			
+<div class="mydesk-leader_card" >
+	<div class="character_card_bg">
+			</div>
+	<div class="character_card">
+		<img class="e-img " id="" src="https://sp.pf-img-a.mbga.jp/12017647?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fimg_sp%2F2022092904%2Fcard%2FI3tlyHS6M4NAO2c-xN2SIYe1u-0c_euzdbW2556lNR1SmhCz52zKi3A5NWU_ItsGeqw1mhRZGac_media.png" width="320" height="320" alt="" style="" border="0" />
+	</div>
+	<div class="card_buttons">
+		<a href="#" data-sound="a" class="card-btn-change">切り替え</a>
+	</div>
+	<div class="leader-serif" id="leader-serif">
+			<div style="position:absolute; top:-5px; right:-8px; z-index:1000;">
+<div class="ui-voice-player" id="ui-player-1483618032">
+	<div class="ui-voice-play">
+		
+			<div class="posr">
+				<div class="posa" style="z-index:1;">
+										<img class="e-img ui-audio-loading dnone ui-rotation" id="audio-loading-1483618032" src="https://sp.pf-img-a.mbga.jp/12017647?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fimg_sp%2F2022092904%2Fui%2Fvoice%2Floading.png" width="30" height="30" alt="" style="pointer-events:none;" border="0" />
+				</div>
+				<div class="posr">
+					
+										<img class="e-img ui-audio-off dblock" id="audio-play-1483618032" src="https://sp.pf-img-a.mbga.jp/12017647?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fimg_sp%2F2022092904%2Fui%2Fvoice%2Fbtn_voice_over.png" width="30" height="30" alt="" style="pointer-events:none;" border="0" />
+										<img class="e-img ui-audio-on dnone" id="audio-stop-1483618032" src="https://sp.pf-img-a.mbga.jp/12017647?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fimg_sp%2F2022092904%2Fui%2Fvoice%2Fbtn_voice_stop_over.png" width="30" height="30" alt="" style="pointer-events:none;" border="0" />
+										<img class="e-img ui-audio-disabled dnone" id="audio-disabled-1483618032" src="https://sp.pf-img-a.mbga.jp/12017647?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fimg_sp%2F2022092904%2Fui%2Fvoice%2Fbtn_voice_gray.png" width="30" height="30" alt="" style="pointer-events:none;" border="0" />
+				</div>
+			</div>
+			</div>
+</div>
+	<script>
+	if(!('audio' in window)) {
+		window.audio = {}
+	}
+        if(!('onplay' in window.audio)) {
+                window.audio.onplay = {}
+        }
+	var onplay = window.audio.onplay['63b5f4356d60d'] || null
+	var version = 1;
+	var $uiPlayerPlayer = $('#ui-player-1483618032').audioplayer({
+		duration: null,
+		title: null,
+		categoryTitle: '',
+		subtitle: '',
+		src: 'https://img.i-sidem.idolmaster.jp/audio/2022091501/idols/wSwwE0PPw8dzJanU5Y2q2pHXAreJRWyCnJcpgHKp3IAg7gGPgABBnV8GgsdiJHaehHvWInPFLM0Yg8tRarQ5DfGQDf8tRH8ljVLJRiP7wqQ_media',
+								formats: ['aac','ogg'],
+				imgSelector: {
+			play: '#audio-play-1483618032',
+			stop: '#audio-stop-1483618032',
+			disabled: '#audio-disabled-1483618032',
+			loading: '#audio-loading-1483618032',
+			error: '#audio-disabled-1483618032'
+		},
+		globalClassSelector: {
+			play: 'ui-audio-off',
+			stop: 'ui-audio-on',
+			loading: 'ui-audio-loading'
+		},
+		version: version,
+		onplay: onplay,
+		bgmToggleFlag: true,
+		debug: false	});
+</script>
+</div>
+		<div class="serif-header">
+			<span>【真っすぐな拳】大河 ﾀｹﾙ</span>
+		</div>
+		<div class="serif-body">
+			<p>ｱﾝﾀ､俺が困ってるときに､いつの間にか助けてくれるだろ?なんていうか………感謝してる｡ありがとな｡</p>
+		</div>
+		<div class="serif-footer"></div>
+	</div>
+</div>
+<script>
+	!function(){var a=!1,b=$("#leader-serif"),c=$(".card-btn-change");c.on("click",function(){return a?(a=!1,b.show(),$(this).show()):(a=!0,b.hide(),$(this).hide()),!1}),$(".mydesk-leader_card").on("click",function(){a&&(a=!1),b.show(),c.show()})}();
+	</script>
+		</div>
+		<div class="eyescatch-slide">
+			
+<div class="mydesk-pmeishi-wrap">
+	<div class="mydesk-pmeishi-header">
+					<a href="?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fbusiness_card%2Falbum%2F%3Fah%3Dfb12af52ca" class="pmeishi-album"></a>
+			<a href="?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fbusiness_card%2Findex%3Fah%3Dfb12af52ca" class="pmeishi"></a>
+			</div>
+	<div class="mydesk-pmeishi-body">
+	
+		                                                
+<div class="canvas-wrap posr " style="width:320px;height:192px;">
+	<canvas 
+		id="business_card_63b5f43570cbb" 
+		width="637.83333333333"
+		height="382.7"
+		style="width:320px;height:192px;"
+		class=""
+	></canvas>
+</div>
+<script>
+window.businessCards = window.businessCards || {}
+$(document).ready(function() {
+        var assets = {"bg":{"bg_12531004":{"onLoad":false,"name":"Guardians of Sanctuary \uff5e\u53e4\u304d\u68ee\u306e\u76df\u7d04\uff5e \u80cc\u666f4","width":640,"height":0,"minScale":50,"maxScale":200,"type":"bg","position":"0;0","allowDrag":false,"allowSelect":true,"allowMultiple":false,"allowRemove":true,"allowOutborder":true,"index":1,"exportFlag":true,"id":12531004,"src":"?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fimg_sp%2F2022092902%2Fevent%2Flottery_quest54%2Fswf%2Fstage04.jpg","thumb_src":"?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fimg_sp%2F2022092902%2Fevent%2Flottery_quest54%2Fthumb%2Fstage04.jpg","filter_id":"161","filter_label":"Guardians of Sanctuary \uff5e\u53e4\u304d\u68ee\u306e\u76df\u7d04\uff5e"}},"defaultBg":{"defaultBg_10001":{"onLoad":true,"name":"\uff72\uff9d\uff83\uff98 \uff8d\uff9e\uff70\uff7d\uff83\uff9e\uff7b\uff9e\uff72\uff9d1","width":640,"height":0,"minScale":50,"maxScale":200,"type":"defaultBg","position":"0;0","allowDrag":false,"allowSelect":false,"allowMultiple":false,"allowRemove":false,"allowOutborder":false,"index":0,"exportFlag":true,"id":10001,"src":"?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fimg_sp%2F2022092902%2Fui%2Fp_meishi%2Fbg%2FdefaultBg_bg_intel_1.png","thumb_src":"?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fimg_sp%2F2022092902%2Fui%2Fp_meishi%2Fbg%2FdefaultBg_bg_intel_1.png","filter_id":0,"filter_label":""},"defaultBg_10004":{"onLoad":false,"name":"\uff72\uff9d\uff83\uff98 \uff8d\uff9e\uff70\uff7d\uff83\uff9e\uff7b\uff9e\uff72\uff9d2","width":640,"height":0,"minScale":50,"maxScale":200,"type":"defaultBg","position":"0;0","allowDrag":false,"allowSelect":false,"allowMultiple":false,"allowRemove":false,"allowOutborder":false,"index":0,"exportFlag":true,"id":10004,"src":"?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fimg_sp%2F2022092902%2Fui%2Fp_meishi%2Fbg%2FdefaultBg_bg_intel_2.png","thumb_src":"?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fimg_sp%2F2022092902%2Fui%2Fp_meishi%2Fbg%2FdefaultBg_bg_intel_2.png","filter_id":0,"filter_label":""}},"idol":{"203805010":{"onLoad":false,"width":null,"height":null,"minScale":50,"maxScale":200,"type":"idol","name":"\u3010\u738b\u5ea7\u3092\u7372\u308b\u3011\u5927\u6cb3 \uff80\uff79\uff99","position":"1.1","allowDrag":true,"allowSelect":true,"allowMultiple":false,"allowRemove":true,"allowOutborder":true,"exportFlag":true,"index":3,"id":"203805010","characterId":"131","characterName":"\u5927\u6cb3 \uff80\uff79\uff99","resource":"13kogado_01takerut_2_SR10","src":"?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fimg_sp%2F2022092902%2Fcard%2FI3tlyHS6M4NAO2c-xN2SIYe1u-0c_euzdbW2556lNR1Ao5oijNecOnA5NWU_ItsGkHzpDTBJE1w_media.png","thumb_src":"?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fimg_sp%2F2022092902%2Fcard%2FI3tlyHS6M4NAO2c-xN2SIYe1u-0c_euzdbW2556lNR1Ao5oijNecOnA5NWU_ItsGkHzpDTBJE1w_media.png","filter_id":"131","filter_label":"\u5927\u6cb3 \uff80\uff79\uff99"}},"stamp":{"defaultStamp_1":{"onLoad":true,"name":"SideM \uff9b\uff7a\uff9e","width":128,"height":0,"minScale":50,"maxScale":200,"type":"defaultStamp","position":{"simple1Right":"250;5","default":"5;5"},"allowDrag":false,"allowSelect":false,"allowMultiple":false,"allowRemove":false,"allowOutborder":false,"index":50,"exportFlag":false,"id":1,"src":"?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fimg_sp%2F2022092902%2Fui%2Fp_meishi%2Fcanvas%2Fsidem_logo.png","thumb_src":"?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fimg_sp%2F2022092902%2Fui%2Fp_meishi%2Fcanvas%2Fsidem_logo.png","filter_id":"","filter_label":""},"defaultStamp_2":{"onLoad":true,"name":"\uff7a\uff8b\uff9f\uff70\uff97\uff72\uff84","width":298,"height":0,"minScale":50,"maxScale":200,"type":"defaultStamp","position":{"simple1Right":"165;176","default":"5;176"},"allowDrag":false,"allowSelect":false,"allowMultiple":false,"allowRemove":false,"allowOutborder":false,"index":50,"exportFlag":false,"id":2,"src":"?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fimg_sp%2F2022092902%2Fui%2Fp_meishi%2Fcanvas%2Fcopyright.png","thumb_src":"?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fimg_sp%2F2022092902%2Fui%2Fp_meishi%2Fcanvas%2Fcopyright.png","filter_id":"","filter_label":""},"stamp_60000059":{"onLoad":false,"name":"THE \u864e\u7259\u9053 \uff95\uff86\uff6f\uff84\uff9b\uff7a\uff9e\uff7d\uff80\uff9d\uff8c\uff9f","width":120,"height":0,"minScale":50,"maxScale":200,"type":"stamp","position":"0;0","allowDrag":true,"allowSelect":true,"allowMultiple":true,"allowRemove":true,"allowOutborder":false,"index":50,"exportFlag":true,"id":60000059,"src":"?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fimg_sp%2F2022092902%2Fui%2Fp_meishi%2Fstamp%2Funit_logo%2F13kogado.png","thumb_src":"?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fimg_sp%2F2022092902%2Fui%2Fp_meishi%2Fstamp%2Funit_logo%2F13kogado.png","filter_id":30,"filter_label":"\uff95\uff86\uff6f\uff84\uff9b\uff7a\uff9e"},"stamp_60000062":{"onLoad":false,"name":"315\uff8c\uff9f\uff9b\uff80\uff9e\uff78\uff7c\uff6e\uff9d \uff7d\uff80\uff9d\uff8c\uff9f","width":120,"height":0,"minScale":50,"maxScale":200,"type":"stamp","position":"0;0","allowDrag":true,"allowSelect":true,"allowMultiple":true,"allowRemove":true,"allowOutborder":false,"index":50,"exportFlag":true,"id":60000062,"src":"?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fimg_sp%2F2022092902%2Fui%2Fp_meishi%2Fstamp%2Flogo%2F315pro.png","thumb_src":"?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fimg_sp%2F2022092902%2Fui%2Fp_meishi%2Fstamp%2Flogo%2F315pro.png","filter_id":900,"filter_label":"\u305d\u306e\u4ed6"},"stamp_60002001":{"onLoad":false,"name":"\u62c5\u5f53 \uff83\uff77\uff7d\uff84\uff7d\uff80\uff9d\uff8c\uff9f1","width":0,"height":26,"minScale":50,"maxScale":200,"type":"stamp","position":"0;0","allowDrag":true,"allowSelect":true,"allowMultiple":true,"allowRemove":true,"allowOutborder":false,"index":50,"exportFlag":true,"id":60002001,"src":"?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fimg_sp%2F2022092902%2Fui%2Fp_meishi%2Fstamp%2Ftext%2Ftext_tantou_1.png","thumb_src":"?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fimg_sp%2F2022092902%2Fui%2Fp_meishi%2Fstamp%2Ftext%2Ftext_tantou_1.png","filter_id":60,"filter_label":"\uff83\uff77\uff7d\uff84"},"stamp_60002013":{"onLoad":false,"name":"\uff8c\uff9f\uff9b\uff83\uff9e\uff6d\uff70\uff7b\uff70 \uff83\uff77\uff7d\uff84\uff7d\uff80\uff9d\uff8c\uff9f1","width":0,"height":26,"minScale":50,"maxScale":200,"type":"stamp","position":"0;0","allowDrag":true,"allowSelect":true,"allowMultiple":true,"allowRemove":true,"allowOutborder":false,"index":50,"exportFlag":true,"id":60002013,"src":"?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fimg_sp%2F2022092902%2Fui%2Fp_meishi%2Fstamp%2Ftext%2Ftext_producer_1.png","thumb_src":"?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fimg_sp%2F2022092902%2Fui%2Fp_meishi%2Fstamp%2Ftext%2Ftext_producer_1.png","filter_id":60,"filter_label":"\uff83\uff77\uff7d\uff84"},"stampMini_61000084":{"onLoad":false,"name":"OP \u5927\u6cb3 \uff80\uff79\uff99 SideMini\uff7d\uff80\uff9d\uff8c\uff9f","width":100,"height":0,"minScale":50,"maxScale":200,"type":"stampMini","position":"0;0","allowDrag":true,"allowSelect":true,"allowMultiple":true,"allowRemove":true,"allowOutborder":false,"index":50,"exportFlag":true,"id":61000084,"src":"?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fimg_sp%2F2022092902%2Fui%2Fsidemini%2Fidol_op%2F13kogado_01takerut_2.png","thumb_src":"?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fimg_sp%2F2022092902%2Fui%2Fsidemini%2Fidol_op%2F13kogado_01takerut_2.png","filter_id":50,"filter_label":"SideMini"},"stampMini_61000088":{"onLoad":false,"name":"OP \u515c \u5927\u543e SideMini\uff7d\uff80\uff9d\uff8c\uff9f","width":100,"height":0,"minScale":50,"maxScale":200,"type":"stampMini","position":"0;0","allowDrag":true,"allowSelect":true,"allowMultiple":true,"allowRemove":true,"allowOutborder":false,"index":50,"exportFlag":true,"id":61000088,"src":"?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fimg_sp%2F2022092902%2Fui%2Fsidemini%2Fidol_op%2F14flags_02daigok_2.png","thumb_src":"?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fimg_sp%2F2022092902%2Fui%2Fsidemini%2Fidol_op%2F14flags_02daigok_2.png","filter_id":50,"filter_label":"SideMini"}},"label":{"group_name":{"id":20001,"type":"defaultLabel","src":"?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fimg_sp%2F2022092902%2Fui%2Fp_meishi%2Fsample%2Fmidashi_g_name.png","thumb_src":"?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fimg_sp%2F2022092902%2Fui%2Fp_meishi%2Fsample%2Fmidashi_g_name.png","onLoad":true,"allowDrag":true,"allowSelect":true,"allowOutborder":false,"allowMultiple":false,"allowRemove":false,"exportFlag":true,"width":0,"height":0,"minScale":50,"maxScale":200,"name":"","position":"0;0","filter_id":"","filter_label":""},"level":{"id":20002,"type":"defaultLabel","src":"?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fimg_sp%2F2022092902%2Fui%2Fp_meishi%2Fsample%2Fmidashi_g_level.png","thumb_src":"?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fimg_sp%2F2022092902%2Fui%2Fp_meishi%2Fsample%2Fmidashi_g_level.png","onLoad":true,"allowDrag":true,"allowSelect":true,"allowOutborder":false,"allowMultiple":false,"allowRemove":false,"exportFlag":true,"width":0,"height":0,"minScale":50,"maxScale":200,"name":"","position":"0;0","filter_id":"","filter_label":""},"id":{"id":20003,"type":"defaultLabel","src":"?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fimg_sp%2F2022092902%2Fui%2Fp_meishi%2Fsample%2Fmidashi_id.png","thumb_src":"?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fimg_sp%2F2022092902%2Fui%2Fp_meishi%2Fsample%2Fmidashi_id.png","onLoad":true,"allowDrag":true,"allowSelect":true,"allowOutborder":false,"allowMultiple":false,"allowRemove":false,"exportFlag":true,"width":0,"height":0,"minScale":50,"maxScale":200,"name":"","position":"0;0","filter_id":"","filter_label":""},"team":{"id":20004,"type":"defaultLabel","src":"?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fimg_sp%2F2022092902%2Fui%2Fp_meishi%2Fsample%2Fmidashi_team.png","thumb_src":"?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fimg_sp%2F2022092902%2Fui%2Fp_meishi%2Fsample%2Fmidashi_team.png","onLoad":true,"allowDrag":true,"allowSelect":true,"allowOutborder":false,"allowMultiple":false,"allowRemove":false,"exportFlag":true,"width":0,"height":0,"minScale":50,"maxScale":200,"name":"","position":"0;0","filter_id":"","filter_label":""}}};
+	var isChromeApp =  false;
+	var isShellApp = false;
+	var cardId = parseInt('132916')
+	window.generateBusinessCard.setParams(cardId, {
+                type: 'simple1Left'
+		, cardDpi: 300		, dpi: 178		, quality: parseFloat(1.9932291666667)
+                , assets: {
+                        background: assets.bg || {}
+			, default_background: assets.defaultBg || {}
+                        , idol: assets.idol || {}
+			, stamp: assets.stamp || {}
+			, label: assets.label || {}
+                }
+		, importJson: {"t":"simple1Left","o":1,"dpi":300,"bitmap":{"1":{"default_background-defaultBg_10001":{"x":0,"y":0,"s":1,"i":"100","sr":{"x":0,"y":0,"h":650,"w":1075}},"default_background-defaultBg_10004":{"x":0,"y":0,"s":1,"i":"101","sr":{"x":0,"y":0,"h":650,"w":1075}}},"10":{"idol-203805010":{"x":0,"y":0,"s":1.015625,"i":"1003","sr":{"x":-3.6384615384615,"y":0,"h":640,"w":640}},"background-bg_12531004":{"x":0,"y":0,"s":1.015625,"i":"1001","sr":{"x":0,"y":0,"h":640,"w":640}}},"20":{"stamp-stamp_60000059|1":{"x":650,"y":0,"s":1.0553010471204,"i":"2051","sr":{"x":0,"y":-113.71162790698,"h":615.93798449613,"w":402.72868217055}},"stamp-stamp_60000062|2":{"x":650,"y":0,"s":1.1787280701754,"i":"2050","sr":{"x":-18.558139534884,"y":-186.64186046512,"h":551.44186046513,"w":360.5581395349}},"stamp-stampMini_61000084|3":{"x":650,"y":0,"s":1.0836693548387,"i":"2052","sr":{"x":0,"y":-369.11627906977,"h":599.81395348838,"w":392.18604651163}},"stamp-stampMini_61000088|4":{"x":650,"y":0,"s":1.0836693548387,"i":"2055","sr":{"x":-110.73488372093,"y":-369.11627906977,"h":599.81395348838,"w":392.18604651163}},"stamp-stamp_60002001|5":{"x":650,"y":0,"s":1.0541487068966,"i":"2053","sr":{"x":-227.6718630207,"y":-493.28903654485,"h":616.61129568103,"w":403.16892409914}},"stamp-stamp_60002013|6":{"x":650,"y":0,"s":0.60237068965517,"i":"2054","sr":{"x":-398.42576028623,"y":-962.86225402504,"h":1079.0697674419,"w":705.54561717353}}},"30":{"text-form":{"x":656,"y":6,"s":1,"i":"3000","t":["group_name","level","id"]}}}}		, mode: 'view'
+		, isChromeApp: isChromeApp
+		, isShellApp : isShellApp
+		, cardId: cardId
+		, allow: {"drag":true,"remove":true,"resize":true,"reindex":true,"select":true,"lock":true}		, updateMenuButton: false
+		, width: 320		, height: 192		, target: 'business_card_63b5f43570cbb'
+		, text: {
+			name: 'metalm'
+			, level: '460'
+			, id: '1093058'
+			, group_name: 'ｻﾀﾝ崇拝'
+			, team: '未所属'			, form: null
+		}
+		, onafterinit: function(card) {
+					}
+        });
+	window.generateBusinessCard.create(cardId)
+	window.generateBusinessCard.init(cardId)
+	window.business_card = window.generateBusinessCard.getCard(cardId)
+	window.businessCards['business_card_63b5f43570cbb'] = window.business_card
+	
+})
+</script>
+			</div>
+</div>
+		</div>
+	</div>
+</div>
+<script>
+(function() {
+        $('#eyescatch-fade-slider').fadeSlider({
+                isLoop: true
+                , useNavigation: true
+                , navigationType: 'eyescatch'
+                , createNavPuces:true
+                , slideElement:'div'
+                , slideClass:'eyescatch-slide'
+                , slideHeight:'auto'
+                , onLoad: false
+		, wrapClass: 'ui-slider-wrap visible'
+        })
+})()
+</script>
+	</div>
+<div class="mydesk-menu-wrap  ">
+	<div class="mydesk-submenus dnone">
+		<ul class="mydesk-submenu-links idol dnone" id="mydesk-idol" data-tabgroup="mydesk-submenu">
+			<li><a href="?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Falbum%2F%3Fah%3Dfb12af52ca" class="album">ｱｲﾄﾞﾙﾌｧｲﾙ</a></li>
+			<li><a href="?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fcard%2F%3Fah%3Dfb12af52ca" class="card">所属ｱｲﾄﾞﾙ</a></li>
+			<li><a href="?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fdormitory%2F%3Fah%3Dfb12af52ca" class="dorm">男子寮</a></li>
+		</ul>
+		<ul class="mydesk-submenu-links unit dnone" id="mydesk-unit" data-tabgroup="mydesk-submenu">
+			<li class="mydesk-submenu-link-mixed"><a href="?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fmixed%2F%3Fah%3Dfb12af52ca" class="mixed">ﾚｯｽﾝ</a></li>
+			<li class="mydesk-submenu-link-evolution"><a href="?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fmixed%2Fevolution%2F%3Fah%3Dfb12af52ca" class="evolution">ﾁｪﾝｼﾞ!</a></li>
+			<li class="mydesk-submenu-link-gacha"><a href="?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fgacha%2Fevent%2F%3Fah%3Dfb12af52ca" class="gacha">ｽｶｳﾄｶﾞｼｬ</a></li>
+		</ul>
+		<ul class="mydesk-submenu-links shigoto dnone" id="mydesk-shigoto" data-tabgroup="mydesk-submenu">
+			<li class="mydesk-submenu-link-quest"><a href="?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fquest%2F%3Fah%3Dfb12af52ca" class="quest">営業</a></li>
+			<li><a href="?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Flive%2Fmatch_list%2F%3Fah%3Dfb12af52ca" class="live">ﾗｲﾌﾞ</a></li>
+		</ul>
+		<ul class="mydesk-submenu-links lesson dnone" id="mydesk-lesson" data-tabgroup="mydesk-submenu">
+			<li><a href="?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fdeck_live%2F%3Fah%3Dfb12af52ca" class="deck">ﾕﾆｯﾄ編成</a></li>
+			<li><a href="?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fcard%2Frecommended%2F%3Fah%3Dfb12af52ca" class="ichioshi">ｲﾁｵﾝﾕﾆｯﾄ</a></li>
+		</ul>
+		<ul class="mydesk-submenu-links story dnone daily-renewal" id="mydesk-story-daily-renewal" data-tabgroup="mydesk-submenu">
+			<li><a href="?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fcomic%2Fcomic_index_navi%3Fah%3Dfb12af52ca" class="comic">雑誌</a></li>
+			<li><a href="?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fdrama_replay%2Findex%2F%3Fah%3Dfb12af52ca" class="event_album">ｲﾍﾞﾝﾄｱﾙﾊﾞﾑ</a></li>
+			<div>
+				<li><a href="?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fdaily_drama_archive%2F%3Fah%3Dfb12af52ca" class="sketch">事務所での1ｺﾏ</a></li>
+				<li><a href="?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fside_memories%2F%3Fah%3Dfb12af52ca" class="side_memories">Side Memories</a></li>
+				<li><a href="?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Ftheater315%2F%3Fah%3Dfb12af52ca" class="theater315">theater315</a></li>
+			</div>
+		</ul>
+	</div>
+	<ul class="mydesk-submenu">
+                <li class="mixed touch">
+			<a data-ui="tab" data-tab-sound="a" data-toggle="true" data-target="mydesk-idol" data-tabkey="mydesk-submenu" href="?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fmixed%2F%3Fah%3Dfb12af52ca" class="blockLink ">ﾚｯｽﾝ</a>
+		</li>
+                <li class="idol touch"><a data-ui="tab" data-tab-sound="a" data-toggle="true" data-target="mydesk-lesson" data-tabkey="mydesk-submenu" href="?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fmixed%2Fevolution%2F%3Fah%3Dfb12af52ca" class="blockLink ">ﾁｪﾝｼﾞ!</a></li>
+		<li class="shigoto touch"><a data-ui="tab" data-tab-sound="a" data-toggle="true" data-target="mydesk-shigoto" data-tabkey="mydesk-submenu" href="#" class="blockLink ">お仕事</a></li>
+                                        <li class="unit touch"><a data-ui="tab" data-tab-sound="a" data-toggle="true" data-target="mydesk-unit" data-tabkey="mydesk-submenu" href="?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fgacha%2F%3Fah%3Dfb12af52ca" class="blockLink ">ｽｶｳﾄｶﾞｼｬ</a></li>
+                									<li class="sidemini touch">
+			<a data-ui="tab" data-tab-sound="a" data-toggle="true" data-target="mydesk-story-daily-renewal" data-tabkey="mydesk-submenu" href="?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fsidemini%2F%3Fah%3Dfb12af52ca" class="blockLink ">事務所</a>
+		</li>
+	</ul>
+	<div class="mydesk-user-bars">
+		<div class="bar-energy">
+			
+<div class="ui-bar-box fluid-bar ">
+	<div class="ui-bar-wrapper ">
+		<div class="hider">
+			<div class="bar energy" style="width: 100%;"></div>
+		</div>
+	</div>
+			<div class="bar-param ">
+									<span class="nowParamText">790</span>/<span>790</span>
+		</div> 
+	</div>
+		</div>
+		<div class="bar-appeal">
+			
+<div class="ui-bar-box fluid-bar ">
+	<div class="ui-bar-wrapper ">
+		<div class="hider">
+			<div class="bar appeal" style="width: 100%;"></div>
+		</div>
+	</div>
+			<div class="bar-param ">
+									<span class="nowParamText">100</span>/<span>100</span>
+		</div> 
+	</div>
+		</div>
+	</div>
+</div>
+<script>
+$(document).ready(function() {
+	var current_tab = null
+	var key = 'mydesk-submenu'
+	$('[data-ui="tab"][data-tabkey="mydesk-submenu"]').on('click', function(event) {
+		if(current_tab == $(this).data('target')) {
+			$('.mydesk-submenu').removeClass('open')
+			$('.mydesk-submenus').removeClass('open')
+			$('.mydesk-submenus').hide()
+			$('[data-tabgroup="'+key+'"]').hide().removeClass('active')
+			$('[data-ui="tab"][data-tabkey="'+key+'"]').removeClass('current on').addClass('off')
+			$('.mydesk-menu').removeClass('disable')
+			$('.eyescatch-container .ui-slider-nav').show()
+			current_tab = null
+			event.stopImmediatePropagation()
+			return false
+		}
+		$('.eyescatch-container .ui-slider-nav').hide()
+		current_tab = $(this).data('target')
+		$('.mydesk-submenus').show().attr('data-active_tabs', current_tab)
+		$('.mydesk-menu').addClass('disable')
+		$('.mydesk-submenu').addClass('open')
+		$('.mydesk-submenus').addClass('open')
+	})
+})
+</script>
+<div class="mb15 posr campaign_banner_area_slider">
+	
+	<ul class="campaign-banner_area " style="" id="campaign_banner_area_63b5f43571875">
+					
+							
+	<li class="banner_list">
+					<a href="?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Futility%2Fctr_banner%2F100%2F1%2FL2Jhbm5lci9jYW1wYWlnbi9iYW5uZXJfY2FtcGFpZ25fZmluYWxfa2x6Z2l2ZW16bg%3D%3D%2FL2NhbXBhaWduL2ZpbmFsLw%3D%3D%2FL3VzZXIvaG9tZS8%3D%2F0%2F6400203%3Fah%3Dfb12af52ca" class="banner_list">
+		
+									
+		
+		<img class="e-img " id="" src="https://sp.pf-img-a.mbga.jp/12017647?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fimg_sp%2F2022092904%2F%2Fbanner%2Fcampaign%2Fbanner_campaign_final_klzgivemzn.png" width="300" height="" alt="" style="" border="0" />
+								<div><span class="txt">各年の<span class="fc-strong">315 思い出ﾑｰﾋﾞｰ</span>を公開中!</span></div>
+		
+					</a>
+			</li>
+																		</ul>
+		<script>
+		$('#campaign_banner_area_63b5f43571875').slider({
+			isLoop: true,
+			createNavPuces:false,
+			navigationType:'arrow_mydesk',
+			slideElement:'li',
+			wrapClass: 'ui-slider-wrap mmb5',
+							isTouch:false,
+				isSwipe:true,
+				isAnimate: true
+					});
+	</script>
+	<img class="e-img " id="" src="https://sp.pf-img-a.mbga.jp/12017647?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fimg_sp%2F2022092904%2Fcommon%2Fline%2Fline05.png" width="320" height="11" alt="" style="" border="0" />
+</div>
+<div class="mmt25mmt28">
+	
+									
+<div class="clearfix user-home-tab-wrapper">
+	<ul id="userHomeTab63b5f435737eb">
+		<li data-no="1" class="on normal-tab">
+							<a class="penone notouch" id="" href="#" onclick="return false;"><img class="e-img " id="" src="https://sp.pf-img-a.mbga.jp/12017647?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fimg_sp%2F2022092904%2Fui%2Fmypage%2Ftab%2Ftab_text_event.png" width="119" height="16" alt="" style="" border="0" />
+</a>
+					</li>
+					<li class="comment-tab"><span><a href="#" data-target="tab-link-team" data-sound="none" class="tab-link-team"></a><a href="#" data-target="tab-link-news" data-sound="none" class="tab-link-news"></a></span></li>
+			</ul>
+</div>
+<div class="user-home-tab-container" id="userHomeTabBody63b5f435737eb">
+	<div class="user-home-tab-body">
+		<div id="user-home-tab-content-1" class="user-home-tabs ">
+						
+<div class="user-home-tab-wrap ">
+			<ul class="bannerCampaign">
+							
+	<li class="banner_list">
+					<a href="?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Futility%2Fctr_banner%2F100%2F1%2FL2Jhbm5lci9nYWNoYS9iYW5uZXJfZmluYWxfY2FtcGFpZ25fa2x6Z2l2ZW16bl9nYWNoYQ%3D%3D%2FL2dhY2hhL3NwZWNpYWxfc2NvdXQvZmluYWwv%2FL3VzZXIvaG9tZS8%3D%2F0%2F990000%3Fah%3Dfb12af52ca" class="banner_list">
+		
+									
+		
+		<img class="e-img " id="" src="https://sp.pf-img-a.mbga.jp/12017647?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fimg_sp%2F2022092904%2F%2Fbanner%2Fgacha%2Fbanner_final_campaign_klzgivemzn_gacha.png" width="300" height="" alt="" style="" border="0" />
+								<div><span class="txt">全ﾕﾆｯﾄの<span class="fc-strong">ｽｶｳﾄ</span>を完了しました!</span></div>
+		
+					</a>
+			</li>
+					</ul>
+				
+</div>
+		</div>
+			</div>
+</div>
+						
+						
+								
+<div class="clearfix user-home-tab-wrapper">
+	<ul id="userHomeTab63b5f43573fbb">
+		<li data-no="1" class="on normal-tab">
+							<a class="penone notouch" id="" href="#" onclick="return false;"><img class="e-img " id="" src="https://sp.pf-img-a.mbga.jp/12017647?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fimg_sp%2F2022092904%2Fui%2Fmypage%2Ftab%2Ftab_text_pickup.png" width="119" height="16" alt="" style="" border="0" />
+</a>
+					</li>
+					<li class="comment-tab"><span>注目のおすすめ情報</span></li>
+			</ul>
+</div>
+<div class="user-home-tab-container" id="userHomeTabBody63b5f43573fbb">
+	<div class="user-home-tab-body">
+		<div id="user-home-tab-content-1" class="user-home-tabs ">
+						
+<div class="user-home-tab-wrap ">
+			<ul class="bannerCampaign">
+							
+	<li class="banner_list">
+					<a href="?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Futility%2Fctr_banner%2F100%2F1%2FL2Jhbm5lci9jYW1wYWlnbi9iYW5uZXJfZHJhbWFfZmluYWxfZWZ4dHNiZGlsb3hvZHY%3D%2FL2RhaWx5X2RyYW1hX2FyY2hpdmUvZGV0YWlsLzk5OQ%3D%3D%2FL3VzZXIvaG9tZS8%3D%2F0%2F6400106%3Fah%3Dfb12af52ca" class="banner_list">
+		
+									
+		
+		<img class="e-img " id="" src="https://sp.pf-img-a.mbga.jp/12017647?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fimg_sp%2F2022092904%2F%2Fbanner%2Fcampaign%2Fbanner_drama_final_efxtsbdiloxodv.png" width="300" height="" alt="" style="" border="0" />
+								<div><span class="txt"><span class="fc-strong">毎日0:00更新!</span>ｱｲﾄﾞﾙたちが順次登場!</span></div>
+		
+					</a>
+			</li>
+					</ul>
+				
+</div>
+		</div>
+			</div>
+</div>
+								
+<div class="clearfix user-home-tab-wrapper">
+	<ul id="userHomeTab63b5f4357478b">
+		<li data-no="1" class="on normal-tab">
+							<a class="notouch" id="" href="#"><img class="e-img " id="" src="https://sp.pf-img-a.mbga.jp/12017647?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fimg_sp%2F2022092904%2Fui%2Fmypage%2Ftab%2Ftab_text_campaign.png" width="119" height="16" alt="" style="" border="0" />
+</a>
+					</li>
+					<li data-no="2" class="normal-tab off"><a class="notouch" id="" href="#"><img class="e-img " id="" src="https://sp.pf-img-a.mbga.jp/12017647?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fimg_sp%2F2022092904%2Fui%2Fmypage%2Ftab%2Ftab_text_contents.png" width="119" height="16" alt="" style="" border="0" />
+</a></li> 
+			</ul>
+</div>
+<div class="user-home-tab-container" id="userHomeTabBody63b5f4357478b">
+	<div class="user-home-tab-body">
+		<div id="user-home-tab-content-1" class="user-home-tabs ">
+						
+<div class="user-home-tab-wrap tiny-banner">
+			<ul class="bannerCampaign">
+							
+	<li class="banner_list">
+					<a href="?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Futility%2Fctr_banner%2F100%2F1%2FL2Jhbm5lci9jYW1wYWlnbi9iYW5uZXJfY2FtcGFpZ25fZmluYWxfa2x6Z2l2ZW16bl9z%2FL2NhbXBhaWduL2ZpbmFsLw%3D%3D%2FL3VzZXIvaG9tZS8%3D%2F0%2F6400203%3Fah%3Dfb12af52ca" class="banner_list">
+		
+									
+		
+		<img class="e-img " id="" src="https://sp.pf-img-a.mbga.jp/12017647?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fimg_sp%2F2022092904%2F%2Fbanner%2Fcampaign%2Fbanner_campaign_final_klzgivemzn_s.png" width="270" height="" alt="" style="" border="0" />
+		
+					</a>
+			</li>
+							
+	<li class="banner_list">
+					<a href="?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Futility%2Fctr_banner%2F100%2F1%2FL2Jhbm5lci9jYW1wYWlnbi9iYW5uZXJfY2FtcGFpZ25faWRvbHByXzAyX2hoZnVxc2l4cV9z%2FL2NhbXBhaWduL2Fsd2F5c19yZWZlcnJhbF9pZG9sX3ByLw%3D%3D%2FL3VzZXIvaG9tZS8%3D%2F0%2F6001700%3Fah%3Dfb12af52ca" class="banner_list">
+		
+									
+		
+		<img class="e-img " id="" src="https://sp.pf-img-a.mbga.jp/12017647?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fimg_sp%2F2022092904%2F%2Fbanner%2Fcampaign%2Fbanner_campaign_idolpr_02_hhfuqsixq_s.png" width="270" height="" alt="" style="" border="0" />
+		
+					</a>
+			</li>
+					</ul>
+		<div class="clear"></div>		
+</div>
+	<div class="user-home-tab-wrap tiny-banner "  id="tiny-tab-wrap-3">
+				
+		<div id="banner_slider_1832320068" >
+			<ul class="bannerCampaign slider">
+									
+	<li class="banner_list">
+					<a href="?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Futility%2Fctr_banner%2F100%2F1%2FL2Jhbm5lci9jYW1wYWlnbi9iYW5uZXJfY2FtcGFpZ25fY2hvc2hpX3Bkb3Zrd21hX3M%3D%2FL2NhbXBhaWduL2Nob3NoaV9kZW50ZXRzdV9jb2xsYWJvLw%3D%3D%2FL3VzZXIvaG9tZS8%3D%2F0%2F9136%3Fah%3Dfb12af52ca" class="banner_list">
+		
+									
+		
+		<img class="e-img " id="" src="https://sp.pf-img-a.mbga.jp/12017647?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fimg_sp%2F2022092904%2F%2Fbanner%2Fcampaign%2Fbanner_campaign_choshi_pdovkwma_s.png" width="270" height="" alt="" style="" border="0" />
+		
+					</a>
+			</li>
+									
+	<li class="banner_list">
+					<a href="?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Futility%2Fctr_banner%2F100%2F1%2FL2Jhbm5lci9jYW1wYWlnbi9iYW5uZXJfY2FtcGFpZ25fbG9zX2hpa2l0dWdpX2VrZmhiYmJnZXhobXFvdF9z%2FL2NhbXBhaWduL2xpdmVfb25fc3RhZ2Uv%2FL3VzZXIvaG9tZS8%3D%2F0%2F8748%3Fah%3Dfb12af52ca" class="banner_list">
+		
+									
+		
+		<img class="e-img " id="" src="https://sp.pf-img-a.mbga.jp/12017647?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fimg_sp%2F2022092904%2F%2Fbanner%2Fcampaign%2Fbanner_campaign_los_hikitugi_ekfhbbbgexhmqot_s.png" width="270" height="" alt="" style="" border="0" />
+		
+					</a>
+			</li>
+									
+	<li class="banner_list">
+					<a href="?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Futility%2Fctr_banner%2F100%2F1%2FL2Jhbm5lci9jYW1wYWlnbi9iYW5uZXJfbGVzc29uXzFfcw%3D%3D%2FL2NhbXBhaWduL2xlc3Nvbl9leHBfZG91YmxlLw%3D%3D%2FL3VzZXIvaG9tZS8%3D%2F0%2F6003000%3Fah%3Dfb12af52ca" class="banner_list">
+		
+									
+		
+		<img class="e-img " id="" src="https://sp.pf-img-a.mbga.jp/12017647?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fimg_sp%2F2022092904%2F%2Fbanner%2Fcampaign%2Fbanner_lesson_1_s.png" width="270" height="" alt="" style="" border="0" />
+		
+					</a>
+			</li>
+									
+	<li class="banner_list">
+					<a href="?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Futility%2Fctr_banner%2F100%2F1%2FL2Jhbm5lci9jYW1wYWlnbi9iYW5uZXJfaW52aXRlXzNfcw%3D%3D%2FL2ludml0ZS8%3D%2FL3VzZXIvaG9tZS8%3D%2F0%2F1003%3Fah%3Dfb12af52ca" class="banner_list">
+		
+									
+		
+		<img class="e-img " id="" src="https://sp.pf-img-a.mbga.jp/12017647?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fimg_sp%2F2022092904%2F%2Fbanner%2Fcampaign%2Fbanner_invite_3_s.png" width="270" height="" alt="" style="" border="0" />
+		
+					</a>
+			</li>
+									
+	<li class="banner_list">
+					<a href="?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Futility%2Fctr_banner%2F100%2F1%2FL2Jhbm5lci9jYW1wYWlnbi9iYW5uZXJfY29tbXVuaXR5XzFfcw%3D%3D%2FL2NvbW11bml0eS8%3D%2FL3VzZXIvaG9tZS8%3D%2F0%2F2001%3Fah%3Dfb12af52ca" class="banner_list">
+		
+									
+		
+		<img class="e-img " id="" src="https://sp.pf-img-a.mbga.jp/12017647?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fimg_sp%2F2022092904%2F%2Fbanner%2Fcampaign%2Fbanner_community_1_s.png" width="270" height="" alt="" style="" border="0" />
+		
+					</a>
+			</li>
+							</ul>
+			<div class="clear"></div>		</div>
+		
+	</div>
+        					<a href="#" class="see-more-btn is-open" data-ui="accordion" data-target="tiny-tab-wrap-3">閉じる</a>
+		        		</div>
+					<div id="user-home-tab-content-2" class="user-home-tabs dnone">
+								
+<div class="user-home-tab-wrap tiny-banner">
+			<ul class="bannerCampaign">
+							
+	<li class="banner_list">
+					<a href="?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Futility%2Fctr_banner%2F100%2F1%2FL2Jhbm5lci9jb250ZW50cy9iYW5uZXJfc291bmRzdHVkaW9fNzhfcw%3D%3D%2FL3NvdW5kLw%3D%3D%2FL3VzZXIvaG9tZS8%3D%2F0%2F3122%3Fah%3Dfb12af52ca" class="banner_list">
+		
+									
+		
+		<img class="e-img " id="" src="https://sp.pf-img-a.mbga.jp/12017647?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fimg_sp%2F2022092904%2F%2Fbanner%2Fcontents%2Fbanner_soundstudio_78_s.png" width="270" height="" alt="" style="" border="0" />
+		
+					</a>
+			</li>
+							
+	<li class="banner_list">
+					<a href="?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Futility%2Fctr_banner%2F100%2F1%2FL2Jhbm5lci9jb250ZW50cy9iYW5uZXJfc2lkZW1lbW9yaWVzX3M%3D%2FL3NpZGVfbWVtb3JpZXMv%2FL3VzZXIvaG9tZS8%3D%2F0%2F6546%3Fah%3Dfb12af52ca" class="banner_list">
+		
+									
+		
+		<img class="e-img " id="" src="https://sp.pf-img-a.mbga.jp/12017647?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fimg_sp%2F2022092904%2F%2Fbanner%2Fcontents%2Fbanner_sidememories_s.png" width="270" height="" alt="" style="" border="0" />
+		
+					</a>
+			</li>
+					</ul>
+		<div class="clear"></div>		
+</div>
+	<div class="user-home-tab-wrap tiny-banner "  id="tiny-tab-wrap-4">
+				
+		<div id="banner_slider_1595086489" >
+			<ul class="bannerCampaign slider">
+									
+	<li class="banner_list">
+					<a href="?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Futility%2Fctr_banner%2F100%2F1%2FL2Jhbm5lci9jb250ZW50cy9iYW5uZXJfdGhlYXRlcjMxNV9z%2FL3RoZWF0ZXIzMTUv%2FL3VzZXIvaG9tZS8%3D%2F0%2F4004%3Fah%3Dfb12af52ca" class="banner_list">
+		
+									
+		
+		<img class="e-img " id="" src="https://sp.pf-img-a.mbga.jp/12017647?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fimg_sp%2F2022092904%2F%2Fbanner%2Fcontents%2Fbanner_theater315_s.png" width="270" height="" alt="" style="" border="0" />
+		
+					</a>
+			</li>
+									
+	<li class="banner_list">
+					<a href="?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Futility%2Fctr_banner%2F100%2F1%2FL2Jhbm5lci9jb250ZW50cy9iYW5uZXJfc2NvdXRtaXNzaW9uX3M%3D%2FL2NhbXBhaWduL3Njb3V0X3F1ZXN0Lw%3D%3D%2FL3VzZXIvaG9tZS8%3D%2F0%2F70003%3Fah%3Dfb12af52ca" class="banner_list">
+		
+									
+		
+		<img class="e-img " id="" src="https://sp.pf-img-a.mbga.jp/12017647?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fimg_sp%2F2022092904%2F%2Fbanner%2Fcontents%2Fbanner_scoutmission_s.png" width="270" height="" alt="" style="" border="0" />
+		
+					</a>
+			</li>
+									
+	<li class="banner_list">
+					<a href="?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Futility%2Fctr_banner%2F100%2F1%2FL2Jhbm5lci9jb250ZW50cy9iYW5uZXJfb2ZmaWNlX3M%3D%2FL3NpZGVtaW5pLw%3D%3D%2FL3VzZXIvaG9tZS8%3D%2F0%2F3008%3Fah%3Dfb12af52ca" class="banner_list">
+		
+									
+		
+		<img class="e-img " id="" src="https://sp.pf-img-a.mbga.jp/12017647?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fimg_sp%2F2022092904%2F%2Fbanner%2Fcontents%2Fbanner_office_s.png" width="270" height="" alt="" style="" border="0" />
+		
+					</a>
+			</li>
+									
+	<li class="banner_list">
+					<a href="?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Futility%2Fctr_banner%2F100%2F1%2FL2Jhbm5lci9jb250ZW50cy9iYW5uZXJfZXZlbnRhbGJ1bV9z%2FL2RyYW1hX3JlcGxheS9pbmRleA%3D%3D%2FL3VzZXIvaG9tZS8%3D%2F0%2F3004%3Fah%3Dfb12af52ca" class="banner_list">
+		
+									
+		
+		<img class="e-img " id="" src="https://sp.pf-img-a.mbga.jp/12017647?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fimg_sp%2F2022092904%2F%2Fbanner%2Fcontents%2Fbanner_eventalbum_s.png" width="270" height="" alt="" style="" border="0" />
+		
+					</a>
+			</li>
+									
+	<li class="banner_list">
+					<a href="?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Futility%2Fctr_banner%2F100%2F1%2FL2Jhbm5lci9jb250ZW50cy9iYW5uZXJfbWFnYXppbmVfcw%3D%3D%2FL2NvbWljLw%3D%3D%2FL3VzZXIvaG9tZS8%3D%2F0%2F3002%3Fah%3Dfb12af52ca" class="banner_list">
+		
+									
+		
+		<img class="e-img " id="" src="https://sp.pf-img-a.mbga.jp/12017647?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fimg_sp%2F2022092904%2F%2Fbanner%2Fcontents%2Fbanner_magazine_s.png" width="270" height="" alt="" style="" border="0" />
+		
+					</a>
+			</li>
+									
+	<li class="banner_list">
+					<a href="?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Futility%2Fctr_banner%2F100%2F1%2FL2Jhbm5lci9jb250ZW50cy9iYW5uZXJfZHJhbWFfYXJjaGl2ZV8wMl9z%2FL2RhaWx5X2RyYW1hX2FyY2hpdmUv%2FL3VzZXIvaG9tZS8%3D%2F0%2F3095%3Fah%3Dfb12af52ca" class="banner_list">
+		
+									
+		
+		<img class="e-img " id="" src="https://sp.pf-img-a.mbga.jp/12017647?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fimg_sp%2F2022092904%2F%2Fbanner%2Fcontents%2Fbanner_drama_archive_02_s.png" width="270" height="" alt="" style="" border="0" />
+		
+					</a>
+			</li>
+									
+	<li class="banner_list">
+					<a href="?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Futility%2Fctr_banner%2F100%2F1%2FL2Jhbm5lci9jb250ZW50cy9iYW5uZXJfbW92aWV0aGVhdGVyX3M%3D%2FL2NvbnRlbnQvbW92aWVfbGlzdA%3D%3D%2FL3VzZXIvaG9tZS8%3D%2F0%2F3036%3Fah%3Dfb12af52ca" class="banner_list">
+		
+									
+		
+		<img class="e-img " id="" src="https://sp.pf-img-a.mbga.jp/12017647?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fimg_sp%2F2022092904%2F%2Fbanner%2Fcontents%2Fbanner_movietheater_s.png" width="270" height="" alt="" style="" border="0" />
+		
+					</a>
+			</li>
+									
+	<li class="banner_list">
+					<a href="?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Futility%2Fctr_banner%2F100%2F1%2FL2Jhbm5lci9jYW1wYWlnbi9iYW5uZXJfYmVnaW5uZXJfMl9z%2FL3RyYWluaW5nX3ZlcjMv%2FL3VzZXIvaG9tZS8%3D%2F0%2F2111%3Fah%3Dfb12af52ca" class="banner_list">
+		
+									
+		
+		<img class="e-img " id="" src="https://sp.pf-img-a.mbga.jp/12017647?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fimg_sp%2F2022092904%2F%2Fbanner%2Fcampaign%2Fbanner_beginner_2_s.png" width="270" height="" alt="" style="" border="0" />
+		
+					</a>
+			</li>
+									
+	<li class="banner_list">
+					<a href="?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Futility%2Fctr_banner%2F100%2F1%2FL2Jhbm5lci9jYW1wYWlnbi9iYW5uZXJfY2RfbGlzdF9z%2FL2NhbXBhaWduL2NkX2luZm9ybWF0aW9ucw%3D%3D%2FL3VzZXIvaG9tZS8%3D%2F0%2F7500%3Fah%3Dfb12af52ca" class="banner_list">
+		
+									
+		
+		<img class="e-img " id="" src="https://sp.pf-img-a.mbga.jp/12017647?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fimg_sp%2F2022092904%2F%2Fbanner%2Fcampaign%2Fbanner_cd_list_s.png" width="270" height="" alt="" style="" border="0" />
+		
+					</a>
+			</li>
+							</ul>
+			<div class="clear"></div>		</div>
+		
+	</div>
+        					<a href="#" class="see-more-btn is-open" data-ui="accordion" data-target="tiny-tab-wrap-4">閉じる</a>
+		        			</div>  
+			</div>
+</div>
+<script>
+	if(!('bannerSlider' in window)) {
+		window.bannerSlider = {}
+	}
+	$('.user-home-tab-wrapper').find('li').on('click', function() {
+		if($(this).hasClass('comment-tab')) 
+			return false;
+		$(this).closest('.user-home-tab-wrapper').find('li.on').removeClass('on').addClass('off');
+		$(this).removeClass('off').addClass('on');
+		var tab_id = $(this).closest('ul').attr('id'),
+		tab_no = $(this).data('no');
+		if(!tab_id || !tab_no) 
+			return false;
+		tab_id = tab_id.replace('userHomeTab', '');
+		if('4' in window.bannerSlider) {
+			if(tab_no === 1) {
+				if(window.bannerSlider[3]) {
+					window.bannerSlider[3].interval(3000);
+				}
+				if(window.bannerSlider[4]) {
+					window.bannerSlider[4].stopAutoSlide('tab');
+				}
+			}
+			else if(tab_no === 2) {
+				if(window.bannerSlider[4]) {
+					window.bannerSlider[4].interval(3000);
+				}
+				if(window.bannerSlider[3]) {
+					window.bannerSlider[3].stopAutoSlide('tab');
+				}
+			}
+		}
+		$('#userHomeTabBody'+tab_id).find('.user-home-tabs').hide();
+		$('#userHomeTabBody'+tab_id).find('#user-home-tab-content-'+tab_no).show();
+		if(window.callSound && typeof window.callSound == 'function') {
+			window.callSound('d')
+		}
+		return false;
+	});
+</script>
+																			</div>
+<div class="ui-popup dnone use-backdrop" id="tab-link-news">
+	
+<div class="ui-popup-header">
+                        <div class="button-close ui-popup-close " data-dismiss="popup" data-sound="b" >
+                        <span class="close penone" style="line-height:23px;">
+                                <img class="e-img " id="" src="https://sp.pf-img-a.mbga.jp/12017647?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fimg_sp%2F2022092904%2F%2Fcommon%2Fclose.png" width="22" height="auto" alt="" style="" border="0" />
+                        </span>
+                        <a href="#" class="notouch">閉じる</a>
+                </div>
+                <div class="clear"></div>
+        </div>
+	
+	<div class="popup-news-tabs ui-body">
+		<a class="news on" data-ui="tab" data-tabKey="pnts" data-target="pnt-news" href="#"></a>
+		<a class="greeting off" data-ui="tab" data-tabKey="pnts" data-target="pnt-greeting" href="#" data-tab-sound="none"></a>
+		<div class="clear"></div>
+	</div>
+	<div class="ui-body">
+		<div id="pnt-news" class="posr ui-body-news" data-tabgroup="pnts"></div>
+		<div id="pnt-greeting" class="posr ui-body-greeting dnone" data-tabgroup="pnts">
+			<div class="ui-title-sub1 " id="">
+	<h3>あいさつ</h3>
+</div>
+			<div id="pnt-greeting-body">
+				<div class="pt30 pb30 loading-wrap posr"></div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="ui-popup dnone use-backdrop" id="tab-link-team">
+	
+<div class="ui-popup-header">
+                        <div class="button-close ui-popup-close " data-dismiss="popup" data-sound="b" >
+                        <span class="close penone" style="line-height:23px;">
+                                <img class="e-img " id="" src="https://sp.pf-img-a.mbga.jp/12017647?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fimg_sp%2F2022092904%2F%2Fcommon%2Fclose.png" width="22" height="auto" alt="" style="" border="0" />
+                        </span>
+                        <a href="#" class="notouch">閉じる</a>
+                </div>
+                <div class="clear"></div>
+        </div>
+	<div class="ui-body"></div>
+</div>
+<div class="mt10 mb10">
+	<img class="e-img " id="" src="https://sp.pf-img-a.mbga.jp/12017647?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fimg_sp%2F2022092904%2Fcommon%2Fline%2Fline05.png" width="320" height="11" alt="" style="" border="0" />
+</div>
+<img class="e-img mauto" id="" src="https://sp.pf-img-a.mbga.jp/12017647?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fimg_sp%2F2022092904%2F%2Fui%2Fmypage%2Fbox%2Ftitle_birthday.png" width="300" height="32" alt="" style="" border="0" />
+	<div class="birthday-list">
+					<div class="birthday-wrap">
+		<div>
+		<img class="e-img birthday-bg" id="" src="https://sp.pf-img-a.mbga.jp/12017647?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fimg_sp%2F2022092904%2F%2Fui%2Fbirthday%2Fidol%2F12sem_01michioh_1.png" width="300" height="70" alt="" style="" border="0" />
+					<div class="birthday-body">
+				<div><span>01月13日 誕生日を迎えるｱｲﾄﾞﾙ</span></div>
+				<div><span>誕生日まで</span> <span class="diff">あと8日!</span></div>
+			</div>
+			</div>
+</div>
+			</div>
+<div class="linebox">
+	
+<div class="ta-center semi-wrap bg posr" >
+	
+<div class="ui-button-sub5 fs-14 w290 s ">
+	<a href="?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fuser%2Faccount_policy%3Fah%3Dfb12af52ca" onclick="" style="" id=""  target=""><span class="fc-alert">ｱｶｳﾝﾄ制限措置の実施について</span></a>
+</div>
+</div>
+	
+<div class="ta-center semi-wrap posr ">
+	
+<div class="ui-button-sub5 w290 s ">
+	<a href="?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fsound%2Fexemption%3Fah%3Dfb12af52ca" onclick="" style="" id=""  target="">音声・楽曲再生機能に関する免責事項</a>
+</div>
+</div>
+	</div>
+<script>
+$(document).ready(function() {
+	var xhrErrorEventHandler = function(k) {
+		window.events.error();
+		if(k) {
+			$.loading('remove', {
+				key: k
+			})
+		}
+	}
+	var xhrSuccessEventHandler = function(k) {
+		if(k) {
+			$.loading('remove', {
+				key: k
+			})
+		}
+	}
+	$(function() {
+		$('[data-target="tab-link-team"]').on('click', function() {
+			if($(this).hasClass('loaded')) {
+				return false
+			}
+			var self = this
+			//window.scrollTo(0,0)
+			$.loading('show', {
+				key: 'tab-link-team'
+				, classname: 'absolute'
+				, wrap: $(this)
+			})
+			$.ajax({
+				url: '?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fajax%2Fguild%2Fguild_info'
+				, dataType: 'html'
+				, timeout: 5000
+				, success: function(data) {
+					if(window.callSound) {
+						window.callSound('a')
+					}
+					$(self).data('sound', 'a').attr('data-sound', 'a')
+					var html = $(data).closest('#ajax_load_content')
+					$(self).addClass('loaded')
+					$('#tab-link-team').find('.ui-body').html(html)
+					$(self).find('.round-count').remove()
+					xhrSuccessEventHandler('tab-link-team')
+					window.events.popup(self)
+					window.events.touch($('#tab-link-team'))
+					$(self).bind('click', function() {
+						window.scrollTo(0,0)
+						var zoom = window.getComputedStyle(document.body).zoom
+						var target = $('.mbga-game-chat')
+						var targetWidth = target.width()
+						var innerWidth = targetWidth * zoom
+						target.css('zoom', targetWidth / innerWidth)
+					})
+					$(self).click()
+				}
+				, error: function(html) {
+					xhrErrorEventHandler('tab-link-team')
+				}
+			})
+			return false;
+		})
+		var currentTabNewGreet = null
+		$('[data-target="tab-link-news"]').on('click', function() {
+			window.scrollTo(0,0)
+			if($(this).hasClass('loaded')) {
+				currentTabNewGreet = 'news'
+				return false
+			}
+			var self = this
+			$.loading('show', {
+				key: 'tab-link-news'
+				, classname: 'absolute'
+				, wrap: $(this)
+			})
+			$.ajax({
+				url: '?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fajax%2Fnews%2Fnews'
+				, dataType: 'html'
+				, timeout: 5000
+				, success: function(data) {
+					if(window.callSound) {
+						window.callSound('a')
+					}
+					$(self).data('sound', 'a').attr('data-sound', 'a')
+					var html = $(data).closest('#ajax_load_content')
+					$(self).addClass('loaded')
+					$(self).find('.round-count.news').remove()
+					$('#tab-link-news').find('.ui-body-news').html(html)
+					xhrSuccessEventHandler('tab-link-news')
+					window.events.popup(self)
+					window.events.touch($('#tab-link-news'))
+					$(self).bind('click', function() {
+						window.scrollTo(0,0)
+					})
+					$(self).click()
+				}
+				, error: function(html) {
+					xhrErrorEventHandler('tab-link-news')
+				}
+			})
+			return false;
+		})
+		$('[data-ui="tab"][data-target="pnt-news"]').on('click', function() {
+			if(currentTabNewGreet == 'greeting') {
+				 $('[data-ui="tab"][data-target="pnt-greeting"]').find('.round-count').remove()
+			}
+		})
+var ia = 0;
+		var setGreetingContentEvents = function() {
+			if(initGreet && typeof initGreet == 'function') initGreet()
+			var target = $('#pnt-greeting')
+			target.find('.btn-delete > a').on('click', function() {
+				if(window.callSound) {
+					window.callSound('a')
+				}
+				var id = $(this).data('id')
+				$.loading('show', {
+					wrap: $(this)
+					, key: 'greetDelete'+id
+					, classname: 'absolute'
+				})
+				$(this).closest('.btn-delete').addClass('disabled')
+				$.ajax({
+					url: window.getMobageUrl('ajax/user/greet_delete/'+id)
+					, dataType: 'html'
+					, timeout: 5000
+					, success: function(data) {
+						$.loading('remove', { key: 'greetDelete'+id })
+						var html = $(data).closest('#ajax_load_content')
+						target.html(html)
+						xhrSuccessEventHandler()
+						window.events.touch(target)
+						if(window.events.sounds) {
+							window.events.sounds(target)
+						}
+						setGreetingContentEvents()
+					}
+					, error: function(html) {
+						$.loading('remove', { key: 'greetDelete'+id })
+						xhrErrorEventHandler()
+					}
+				})
+				return false;
+			})
+		}
+		$('[data-ui="tab"][data-target="pnt-greeting"]').on('click', function() {
+			$('[data-target="tab-link-news"]').find('.round-count.greet').remove()
+			if(currentTabNewGreet == 'news') {
+				$('[data-ui="tab"][data-target="pnt-news"]').find('.round-count').remove()
+			}
+			currentTabNewGreet = 'greeting'
+			if($(this).hasClass('loaded')) return false
+			var self = this
+			var target = $('#pnt-greeting-body')
+			$.loading('show', {
+				key: 'tab-link-greeting'
+				, classname: 'absolute'
+				, wrap: target.find('.loading-wrap')
+			})
+			$.ajax({
+				url: '?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fajax%2Fuser%2Fgreeting'
+				, dataType: 'html'
+				, timeout: 5000
+				, success: function(data) {
+					var html = $(data).closest('#ajax_load_content')
+					if(window.callSound) {
+						window.callSound('d')
+					}
+					$(self).data('tabSound', 'd').attr('data-tabSound', 'd')
+					$(self).addClass('loaded')
+					target.html(html)
+					xhrSuccessEventHandler('tab-link-greeting')
+					window.events.touch(target)
+					if(window.events.sounds) {
+						window.events.sounds(target)
+					}
+					setGreetingContentEvents()
+					$(self).click()
+				}
+				, error: function(html) {
+					xhrErrorEventHandler('tab-link-greeting')
+				}
+			})
+			return false;
+		})
+		$('#tab-link-news').find('[data-dismiss="popup"]').click(function() {
+			if(currentTabNewGreet == 'news') {
+				$('[data-ui="tab"][data-target="pnt-news"]').find('.round-count').remove()
+			}
+			else if(currentTabNewGreet == 'greeting') {
+				$('[data-ui="tab"][data-target="pnt-greeting"]').find('.round-count').remove()
+			}
+		})
+	})
+	$(function() {
+		var iconMessageOpen = false
+		var iconMessageInProcess = false
+		var userDetailInProcess = false
+		var userDetailOpen = false
+		var commonClickHandler = function(a, e) {
+			if(a != 'message') {
+				$('#popup_message').hide()
+				iconMessageOpen = false
+			}
+			if(a != 'user_info') {
+				$('#popup_detail_info').hide()
+				userDetailOpen = false
+			}
+			if(a != 'sidemini') {
+				$('#popup_sidemini').hide()
+				$('#popup_sidemini').find('[data-dismiss="popup"]').click()
+			}
+		}
+		$('[data-target="popup_sidemini"]').on('click', function() {
+			commonClickHandler('sidemini', this)
+			return false
+		})
+		$('.user-home-header .icon-message').on('click', function() {
+			if(iconMessageInProcess) return false
+	
+			var self = this
+			iconMessageInProcess = true
+			if(iconMessageOpen) {
+				$('#popup_message').slideUp(function() {
+					iconMessageOpen = false
+					iconMessageInProcess = false
+				})
+				return false
+			}
+			if($(this).hasClass('loaded')) {
+				commonClickHandler('message', this)
+				$('#popup_message').slideDown(function() {
+					iconMessageOpen = true
+					iconMessageInProcess = false
+				})
+				return false
+			}
+			$.ajax({
+				url: '?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fajax%2Fuser%2Fmessage'
+				, dataType: 'html'
+				, timeout: 5000
+				, success: function(data) {
+					if(window.callSound) {
+						window.callSound('d')
+					}
+					$(self).data('sound', 'd').attr('data-sound', 'd')
+					var html = $(data).closest('#ajax_load_content')
+					commonClickHandler('message', self)
+					$(self).addClass('loaded')
+					$('#popup_message').html(html)
+					$('#popup_message').slideDown(function() {
+						iconMessageOpen = true
+						iconMessageInProcess = false
+					})
+					$('#popup_message').find('.close_button').bind('click', function() {
+						$('#popup_message').slideUp(function() {
+							iconMessageOpen = false
+						})
+						if(window.callSound) {
+							window.callSound('d')
+						}
+						return false
+					})
+					window.events.touch($('#popup_message'))
+				}
+				, error: function(html) {
+					xhrErrorEventHandler()
+				}
+			})
+		})
+		$('.user-home-header .unit-name').on('click', function() {
+			if(userDetailInProcess) return false
+			var self = this
+			userDetailInProcess = true
+			if(userDetailOpen) {
+				$('#popup_detail_info').slideUp(function() {
+					userDetailOpen = false
+					$('.menu-arrow').removeClass('open')
+					userDetailInProcess = false
+				})
+				return false
+			}
+			if($(this).hasClass('loaded')) {
+				commonClickHandler('user_info', this)
+				$('#popup_detail_info').slideDown(function() {
+					userDetailOpen = true
+					$('.menu-arrow').addClass('open')
+					userDetailInProcess = false
+				})
+				return false
+			}
+			$.ajax({
+				url: '?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fajax%2Fuser%2Fuser_info'
+				, dataType: 'html'
+				, timeout: 5000
+				, success: function(data) {
+					if(window.callSound) {
+						window.callSound('d')
+					}
+					$(self).data('sound', 'd').attr('data-sound', 'd')
+					var html = $(data).closest('#ajax_load_content')
+					commonClickHandler('user_info', self)
+					$(self).addClass('loaded')
+					$('#popup_detail_info').html(html)
+					$('#popup_detail_info').slideDown(function() {
+						userDetailOpen = true
+						$('.menu-arrow').addClass('open')
+						userDetailInProcess = false
+					})
+					html.find('#open_card_lists a').click(function() {
+						if(window.callSound) window.callSound('d')
+						$('#ichioshi').slideToggle()
+						if($(this).hasClass('open')) {
+							$(this).removeClass('open')
+						} else {
+							$(this).addClass('open')
+						}
+						return false
+					})
+					window.events.touch($('#popup_detail_info'))
+				}
+				, error: function(html) {
+					xhrErrorEventHandler()
+				}
+			})
+		})
+	})
+})
+</script>
+	<script type="text/javascript">
+		$(function() {
+			/*var f = document.createElement("iframe");
+			var fs = f.style;
+			fs.position = 'absolute';
+			fs.left = fs.top = '-9999px';
+			document.body.appendChild(f);
+			var protocol = (("https:" == document.location.protocol) ? "https://" : "http://");
+			var url  = protocol + "app-adforce.jp/ad/p/cv?_buyer=107&_cvpoint=3848&_price=&_buid=&";
+			f.src = url;*/
+			var protocol = (("https:" == document.location.protocol) ? "https://" : "http://");
+			var url  = protocol + "app-adforce.jp/ad/p/cv?_buyer=107&_cvpoint=3848&_price=&_buid=&";
+			var img = document.createElement('img')
+			img.src = url
+			document.body.appendChild(img)
+			img.style.position = 'absolute'
+			img.style.left = '-9999px'
+			img.style.display = 'none'
+		});
+	</script>
+</div>
+			<div id="footer">
+<div id="back-to-top">
+	<a href="" style="display: block;"><img class="e-img " id="" src="https://sp.pf-img-a.mbga.jp/12017647?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fimg_sp%2F2022092904%2Fcommon%2Fbutton%2Fpagetop.png" width="320" height="41" alt="" style="" border="0" />
+</a>
+</div>
+<div class="global-menu ">
+	<ul>
+		<li class="mydesk"><a href="?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fuser%2Fhome%3Fah%3Dfb12af52ca">ﾏｲﾃﾞｽｸ</a></li>
+					<li class="quest"><a href="?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fquest%2F%3Fah%3Dfb12af52ca">営業</a></li>
+							<li class="event-mixed"><a href="?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fmixed%2F%3Fah%3Dfb12af52ca">ﾚｯｽﾝ</a></li>
+							<li class="gacha"><a href="?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fgacha%2F%3Fah%3Dfb12af52ca">ｽｶｳﾄｶﾞｼｬ</a></li>
+		
+								<li class="event"><a href="#">営業</a></li>
+				<li class="top"><a href="http://g12017647.sp.pf.mbga.jp/user/top">TOP</a></li>
+	</ul>
+</div>
+<script>
+	(function() {
+		var w = window,
+		d = document,
+		m = d.getElementById('main'),
+		t = d.getElementById('back-to-top');
+		var windowHeight = function() {
+			var e = d.documentElement,
+			g = d.getElementsByTagName('body')[0],
+			y = w.innerHeight|| e.clientHeight|| g.clientHeight;
+			return y;
+		};
+		var contentSize = function() {
+			g = d.getElementById('main'),
+			y = m.clientHeight;
+			return parseInt(y) + 48;
+		};
+		if(windowHeight() < contentSize()) {
+			$backTop = $('#back-to-top');
+			$backTop.click(function() {
+				$body = $("html, body");
+									document.body.scrollTop = document.documentElement.scrollTop = 0;
+								return false;
+			});
+		}
+		else {
+			t.style.display = 'none';
+		}	
+	})();
+</script>
+</div>
+	<div class="ui-backdrop fade " ></div>
+<div id="popups">
+	<div class="ui-popup dnone use-backdrop fixed-middle" id="ui-popup-error">
+	
+<div class="ui-popup-header">
+                        <div class="button-close ui-popup-close " data-dismiss="popup" data-sound="b" >
+                        <span class="close penone" style="line-height:23px;">
+                                <img class="e-img " id="" src="https://sp.pf-img-a.mbga.jp/12017647?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fimg_sp%2F2022092904%2F%2Fcommon%2Fclose.png" width="22" height="auto" alt="" style="" border="0" />
+                        </span>
+                        <a href="#" class="notouch">閉じる</a>
+                </div>
+                <div class="clear"></div>
+        </div>
+	<div class="ui-body">
+				
+	
+	<div class="navi-wrapbox np-left ">
+		<table>
+			<tbody>
+				<tr>
+									<td class="navi_img" width="80">
+						<img class="e-img " id="" src="https://sp.pf-img-a.mbga.jp/12017647?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fimg_sp%2F2022092904%2Fcommon%2Fnavi%2Fnavi_blue_sad.png" width="80" height="auto" alt="" style="" border="0" />
+					</td>
+					<td class="navi_text">
+												
+<div class="balloon balloon-over balloon-green " style="">
+		<p style="">ｴﾗｰが発生しました｡<br />お手数をおかけいたしますが､<br />再読み込みしてください</p>
+	
+</div>
+					</td>
+								</tr>
+			</tbody>
+		</table>
+	</div>
+	
+		<div class="wrap ta-center pt0">
+			
+<div class="ui-button-sub1 error-btn m ">
+	<a href="" onclick="" style="" id=""  target="">再読み込み</a>
+</div>
+		</div>
+	</div>
+</div>
+<a id="ui-popup-error-trigger" data-target="ui-popup-error" class="dnone"></a>
+</div>
+	<div class="ta-center pt5 pb5 mt5 fs-10 linebox">
+	<span>THE IDOLM@STER&trade;& &copy;Bandai Namco Entertainment Inc.</span>
+</div>
+	
+		</div>
+			</div>
+			
+</body>
+</html>
